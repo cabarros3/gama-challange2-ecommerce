@@ -1,3 +1,3 @@
 # Haring Coders - Desafio #2
 
-![](https://drive.google.com/file/d/1hi5nK02vGXEbYyaRyV2Hv9LNJ9Ee6-Tq/view?usp=sharing)
+![](https://github.com/cabarros3/gama-challange2-ecommerce/blob/main/assets/Desktop%20-%201.png)
