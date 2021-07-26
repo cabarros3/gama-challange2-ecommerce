@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b25e9969-a7b9-4dae-b248-baf7660c4255/deploy-status)](https://app.netlify.com/sites/revolution-cosmectis/deploys)
+
 # Haring Coders - Desafio #2
 
 ![](https://github.com/cabarros3/gama-challange2-ecommerce/blob/main/assets/Desktop%20-%201.png)
@@ -18,6 +20,8 @@ Entretanto, na live o professor mostrou uma forma diferente de fazer e resolvi i
 
 A imagem acima é do projeto do desafio que você pode conferir no [Figma.](https://www.figma.com/file/m1Vs8XcwtikLzrleJ1iAQ9/HC-DESAFIO-2?node-id=0%3A1)
 O projeto consiste em criar um ecommerce de cosméticos ou maquiagem, nele é possível cadastrar email, senha e nome para um usuário e ainda adicionar produtos ao carrinho. Todas as funcionalidades ficam salvas no localstorage.
+
+![](https://github.com/cabarros3/gama-challange2-ecommerce/blob/main/assets/Capturar.PNG)
 
 
 
