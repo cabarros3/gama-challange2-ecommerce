@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Noto sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #000;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.poster-one {
+  background-color: #000;
+  color: #fff;
+}
+
+.poster-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+.box1 {
+  grid-row-start: 1;
+  grid-row-end: 50;
+}
+
+.img {
+  background: url("/assets/images/posters/poster1.png");
+  height: 700px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  grid-row-start: 1;
+  grid-row-end: 50;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto sans", sans-serif;
+  padding: 20px;
+  margin-top: 20%;
+  margin-bottom: 20px;
+}
+
+.box-content h1 {
+  font-size: 80px;
+}
+
+.box-content h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Noto sans", sans-serif;
+}
+
+.input {
+  width: 350px;
+  height: 40px;
+  border: none;
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.submit {
+  width: 200px;
+  height: 40px;
+  background-color: #000;
+  border: 1px solid white;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.container-products {
+  width: 100%;
+  height: 150vh;
+  margin: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 10fr);
+  color: #fff;
+  margin: 10%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  font-size: 12px;
+}
+
+.add {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.box-one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 50;
+  color: #000;
+  text-align: center;
+  font-family: "Noto sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img1 {
+  background: url("/assets/images/products/pdt1.png");
+  height: 80%;
+  width: 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.box-two {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 50;
+  color: #000;
+  text-align: center;
+  font-family: "Noto sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  background: url("/assets/images/products/pdt3.png");
+  height: 80%;
+  width: 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.box-three {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 50;
+  grid-row-end: 100;
+  color: #000;
+  text-align: center;
+  font-family: "Noto sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img3 {
+  background: url("/assets/images/products/pdt2.png");
+  height: 80%;
+  width: 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.box-four {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 50;
+  grid-row-end: 100;
+  color: #000;
+  text-align: center;
+  font-family: "Noto sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img4 {
+  background: url("/assets/images/products/pdt4.png");
+  height: 80%;
+  width: 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.poster-two {
+  background-color: #000;
+  color: #fff;
+  margin-top: 15%;
+}
+
+.poster-wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
+
+.box1 {
+  grid-row-start: 1;
+  grid-row-end: 50;
+}
+
+.img-poster {
+  background: url("/assets/images/posters/poster2.png");
+  height: 700px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  grid-row-start: 1;
+  grid-row-end: 50;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto sans", sans-serif;
+  padding: 10px;
+  margin-top: 10%;
+  margin-bottom: 20px;
+}
+
+.box-content h1 {
+  font-size: 80px;
+}
+
+.box-content h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.menu-final {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 10%;
+}
+
+.logo-final {
+  font-family: "Noto sans", sans-serif;
+}
+
+.coluna-n {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  font-family: "Noto sans", sans-serif;
+}
+
+.coluna-n p {
+  font-size: 12px;
+  color: #919496;
+  padding: 3px 0 15px;
+}
+
+.coluna-n a {
+  text-decoration: none;
+  padding: 3px 0 15px;
+  color: #000;
+  font-size: 16px;
+}
+
+.coluna-n a:hover {
+  color: rgb(30, 215, 96);
+}
+
+.coluna-n1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  font-family: "Noto sans", sans-serif;
+}
+
+.coluna-n1 p {
+  font-size: 12px;
+  color: #919496;
+  padding: 3px 0 15px;
+}
+
+.coluna-n1 a {
+  text-decoration: none;
+  padding: 3px 0 15px;
+  color: #000;
+  font-size: 16px;
+}
+
+.coluna-n1 a:hover {
+  color: rgb(30, 215, 96);
+}
+
+.coluna-n2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  font-family: "Noto sans", sans-serif;
+}
+
+.coluna-n2 p {
+  font-size: 12px;
+  color: #919496;
+  padding: 3px 0 15px;
+}
+
+.coluna-n2 a {
+  text-decoration: none;
+  padding: 3px 0 15px;
+  color: #000;
+  font-size: 16px;
+}
