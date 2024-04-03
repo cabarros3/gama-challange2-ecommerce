@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b25e9969-a7b9-4dae-b248-baf7660c4255/deploy-status)](https://app.netlify.com/sites/revolution-cosmectis/deploys)
-
 # [Haring Coders - Desafio #2](https://revolution-cosmectis.netlify.app/)
 
 ![](https://github.com/cabarros3/gama-challange2-ecommerce/blob/main/assets/Desktop%20-%201.png)
